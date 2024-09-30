@@ -1,5 +1,21 @@
 # Changelog
 
+## [20.21.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v20.20.0...v20.21.0) (2024-09-30)
+
+
+### Features
+
+* Add current level startup to all IKEA TRADFRI lights ([#8049](https://github.com/Koenkk/zigbee-herdsman-converters/issues/8049)) ([3f9376f](https://github.com/Koenkk/zigbee-herdsman-converters/commit/3f9376fbf899d07a950668939a5555f2ad8366d3))
+* **add:** FP1E ([#8043](https://github.com/Koenkk/zigbee-herdsman-converters/issues/8043)) ([047cfc0](https://github.com/Koenkk/zigbee-herdsman-converters/commit/047cfc0c66e36dc77947f5ffb278c4567bd3c730))
+
+
+### Bug Fixes
+
+* **detect:** Detect `_TZE204_c2fmom5z` as Tuya TS0601_air_quality_sensor ([#8051](https://github.com/Koenkk/zigbee-herdsman-converters/issues/8051)) ([5628b9c](https://github.com/Koenkk/zigbee-herdsman-converters/commit/5628b9c4351dd4e1c746787563191479ecd21b46))
+* **detect:** Detect `_TZE284_0zaf1cr8` as Nous E8 https://github.com/Koenkk/zigbee2mqtt/issues/23941 ([13ca5a0](https://github.com/Koenkk/zigbee-herdsman-converters/commit/13ca5a04abfb6e38a03aee0d3eb4737a18e33071))
+* Fix incorrect logging when value is not in Tuya lookup https://github.com/Koenkk/zigbee2mqtt/issues/24090 ([6b9a567](https://github.com/Koenkk/zigbee-herdsman-converters/commit/6b9a56780a4be37f820ef8542f19aff54533c540))
+* Mark GL-C-003P as color temp only (instead of color) https://github.com/Koenkk/zigbee2mqtt/issues/24091 ([ef49933](https://github.com/Koenkk/zigbee-herdsman-converters/commit/ef499333aadd6d80717180a834861f1d10b12956))
+
 ## [20.20.0](https://github.com/Koenkk/zigbee-herdsman-converters/compare/v20.19.0...v20.20.0) (2024-09-29)
 
 
